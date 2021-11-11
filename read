@@ -1,0 +1,12 @@
+.space-product2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.product-card2{
+    background-color:#9e9ea7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 200px;

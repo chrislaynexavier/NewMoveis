@@ -1,0 +1,133 @@
+body{
+    font-size: 12px;
+    background-color: #f1e5de;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 120px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.mainPage{
+    background-color:#fff8f5;
+    padding: 40px 40px;
+    margin: 30px 40px;
+    padding-bottom: 0px;
+    font-family:Helvetica, Arial, sans-serif;
+    color:#0d0c22;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    text-decoration: none;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+}
+.subtitle{
+    font-size: 55px;
+    font-weight: bold;
+}
+.botton-catalog{
+    border: none;
+    padding: 15px 50px; 
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    color: #ffffff;
+    background-color: #d16a1d;
+    cursor: pointer;
+    box-shadow: 1px 7px 15px 5px #f880644a ;
+}
+.space-product1{
+    display: flex;
+    justify-content: flex-end;
+}
+.product-card1{
+    background-color:#9e9ea7;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-left{
+    width: 40%;
+}
+.section-right{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.text-img{
+    padding: 30% 5%;
+}
+.product-card2{
+    background-color:#efc7b0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    margin-left: 75%;
+    height: 660px
+}
+.product-card3{
+    background-color:#e0e7f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 230px;
+    margin-top: 0%;
+}
+.history{
+    display: flex;
+    justify-content: space-between;
+}
+.img-factory{
+    background-color: #e0e7f3;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.options-service{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+.option{
+    border: 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 30px;
+    padding: 20px 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    text-decoration: none;
+}
+.option:hover{
+    transform: scale(1.2);
+    box-shadow: 8px 8px 8px 0px rgb(0 0 0 / 10%);
+}
+
+.title-option{
+    font-size: 16px; 
+    color: #404040;
+}
+.subtitle-option{
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-top: 5px;
+}
